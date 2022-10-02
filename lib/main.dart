@@ -4,6 +4,7 @@ import 'package:flutter_restapi/example_four.dart';
 import 'package:flutter_restapi/example_three.dart';
 import 'package:flutter_restapi/example_two.dart';
 import 'package:flutter_restapi/signup.dart';
+import 'package:flutter_restapi/upload_image.dart';
 
 import 'home_screen.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SignUpScreen(),
+      home: const UploadImageScreen(),
     );
   }
 }
